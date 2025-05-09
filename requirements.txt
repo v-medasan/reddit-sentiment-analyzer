@@ -1,0 +1,9 @@
+praw~=7.8.1
+prefect>=2.13.0
+textblob~=0.19.0
+google-cloud-storage
+google-cloud-bigquery
+pyspark~=3.5.5
+python-dotenv
+textblob
+protobuf~=5.29.4

@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  prefect:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    volumes:
+      - ..:/app
+    ports:
+      - "4200:4200"
